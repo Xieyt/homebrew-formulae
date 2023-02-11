@@ -1,9 +1,13 @@
+# Documentation: https://docs.brew.sh/Formula-Cookbook
+#                https://rubydoc.brew.sh/Formula
+# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Skhd < Formula
-  desc "Simple hotkey-daemon for macOS."
-  homepage "https://github.com/Xieyt/skhd"
-  url "https://github.com/koekeishiya/skhd/archive/v0.3.5.zip"
-  sha256 "64e40b4f65e9db1c4a4ce333b4978bbd84fb72df62e5d17dd2b6a41bf008ee10"
-  head "https://github.com/Xieyt/skhd.git"
+  desc "Xieyt CUSTOM  skhd"
+  homepage "https://github.com/koekeishiya/skhd"
+  url "https://github.com/Xieyt/skhd/archive/refs/tags/v0.1.tar.gz"
+  sha256 "ffda10688f96f8d214ac9eb46ca95595113d7cf213e21df99b8f95d7910392fe"
+  head "https://github.com/koekeishiya/skhd"
+  license ""
 
   option "with-logging", "Redirect stdout and stderr to log files"
 
@@ -48,3 +52,4 @@ class Skhd < Formula
           <true/>
           <key>StandardOutPath</key>
           <string>#{var}/log/skhd/skhd.out.log</string>
+
