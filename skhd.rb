@@ -4,8 +4,8 @@
 class Skhd < Formula
   desc "Xieyt CUSTOM  skhd"
   homepage "https://github.com/koekeishiya/skhd"
-  url "https://github.com/Xieyt/skhd/archive/refs/tags/v0.1.tar.gz"
-  sha256 "ffda10688f96f8d214ac9eb46ca95595113d7cf213e21df99b8f95d7910392fe"
+  url "https://github.com/Xieyt/skhd/archive/refs/tags/v0.2.tar.gz"
+  sha256 "e641e97489690e2a6bc805ec9bbf2b75458aed064c1f7ca873ff3dcaaf248352"
   head "https://github.com/koekeishiya/skhd"
   license ""
 
