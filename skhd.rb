@@ -1,8 +1,8 @@
 class Skhd < Formula
   desc "Xieyt CUSTOM  skhd"
   homepage "https://github.com/xieyt/skhd"
-  url "https://github.com/Xieyt/skhd/archive/refs/tags/v0.2.tar.gz"
-  sha256 "e641e97489690e2a6bc805ec9bbf2b75458aed064c1f7ca873ff3dcaaf248352"
+  url "https://github.com/Xieyt/skhd/archive/refs/tags/v0.3.tar.gz"
+  sha256 "b33d6e40560c1f0ed2e1e8bec36c148865a2fcfd0e9310470a5a5bd6252db758"
   head "https://github.com/Xieyt/skhd.git"
 
    def install
